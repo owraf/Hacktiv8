@@ -13,7 +13,7 @@ skor = 100
 acak = randint(0, 9)
 
 tebakkan1 = int(input('Masukkan tebakkan anda : '))
-if type(tebakkan1) is string:
+if type(tebakkan1) is string :
     print("salah cook")
 else:
     if tebakkan1 == acak:
